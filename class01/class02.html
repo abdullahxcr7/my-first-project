@@ -1,0 +1,92 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            margin: 20px;
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .card-header {
+            background-color: #337ab7;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .card-body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Leads Card -->
+        <div class="card">
+            <div class="card-header">
+                <h5>Leads</h5>
+            </div>
+            <div class="card-body">
+                <h6>New Leads: 10</h6>
+                <h6>Converted Leads: 5</h6>
+                <button class="btn btn-primary">View All Leads</button>
+            </div>
+        </div>
+
+        <!-- Customers Card -->
+        <div class="card">
+            <div class="card-header">
+                <h5>Customers</h5>
+            </div>
+            <div class="card-body">
+                <h6>Total Customers: 50</h6>
+                <h6>Active Customers: 30</h6>
+                <button class="btn btn-primary">View All Customers</button>
+            </div>
+        </div>
+
+        <!-- Sales Card -->
+        <div class="card">
+            <div class="card-header">
+                <h5>Sales</h5>
+            </div>
+            <div class="card-body">
+                <h6>Total Sales: $10,000</h6>
+                <h6>Average Sale: $500</h6>
+                <button class="btn btn-primary">View All Sales</button>
+            </div>
+        </div>
+
+        <!-- Tasks Card -->
+        <div class="card">
+            <div class="card-header">
+                <h5>Tasks</h5>
+            </div>
+            <div class="card-body">
+                <h6>Upcoming Tasks: 5</h6>
+                <h6>Overdue Tasks: 2</h6>
+                <button class="btn btn-primary">View All Tasks</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
